@@ -7,25 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E5838BF15CA4D7E0002D74C /* UZProfileTabActive.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5838B715CA4D7E0002D74C /* UZProfileTabActive.png */; };
+		7E5838C015CA4D7E0002D74C /* UZProfileTabActive2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5838B815CA4D7E0002D74C /* UZProfileTabActive2.png */; };
+		7E5838C115CA4D7E0002D74C /* UZProfileTabActive2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5838B915CA4D7E0002D74C /* UZProfileTabActive2@2x.png */; };
+		7E5838C215CA4D7E0002D74C /* UZProfileTabActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5838BA15CA4D7E0002D74C /* UZProfileTabActive@2x.png */; };
+		7E5838C315CA4D7E0002D74C /* UZProfileTabInactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5838BB15CA4D7E0002D74C /* UZProfileTabInactive.png */; };
+		7E5838C415CA4D7E0002D74C /* UZProfileTabInactive2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5838BC15CA4D7E0002D74C /* UZProfileTabInactive2.png */; };
+		7E5838C515CA4D7E0002D74C /* UZProfileTabInactive2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5838BD15CA4D7E0002D74C /* UZProfileTabInactive2@2x.png */; };
+		7E5838C615CA4D7E0002D74C /* UZProfileTabInactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5838BE15CA4D7E0002D74C /* UZProfileTabInactive@2x.png */; };
 		7E7CE0AA15CA2D01004657AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CE0A915CA2D01004657AE /* UIKit.framework */; };
 		7E7CE0AC15CA2D01004657AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CE0AB15CA2D01004657AE /* Foundation.framework */; };
 		7E7CE0AE15CA2D01004657AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CE0AD15CA2D01004657AE /* CoreGraphics.framework */; };
 		7E7CE0B415CA2D01004657AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CE0B215CA2D01004657AE /* InfoPlist.strings */; };
 		7E7CE0B615CA2D01004657AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0B515CA2D01004657AE /* main.m */; };
 		7E7CE0BA15CA2D01004657AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0B915CA2D01004657AE /* AppDelegate.m */; };
+		7E7CE0C815CA36BA004657AE /* JTTabTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0C715CA36BA004657AE /* JTTabTableViewController.m */; };
+		7E7CE0CB15CA3755004657AE /* MHTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0C415CA3651004657AE /* MHTabBarView.m */; };
+		7E7CE0CC15CA3755004657AE /* SMHeaderCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0C115CA362C004657AE /* SMHeaderCellView.m */; };
+		7E7CE0CD15CA3755004657AE /* JTLazyLoadTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0CA15CA3730004657AE /* JTLazyLoadTableView.m */; };
+		7E7CE0D115CA37CA004657AE /* JTTabTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0D015CA37CA004657AE /* JTTabTableView.m */; };
+		7E7CE0E715CA397C004657AE /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0D315CA3918004657AE /* SDImageCache.m */; };
+		7E7CE0E815CA397C004657AE /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0D715CA391A004657AE /* SDWebImageDecoder.m */; };
+		7E7CE0E915CA397C004657AE /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0D915CA391B004657AE /* SDWebImageDownloader.m */; };
+		7E7CE0EA15CA397C004657AE /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0DC15CA391F004657AE /* SDWebImageManager.m */; };
+		7E7CE0EB15CA397C004657AE /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0DF15CA3924004657AE /* SDWebImagePrefetcher.m */; };
+		7E7CE0EC15CA397C004657AE /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0E115CA3927004657AE /* UIButton+WebCache.m */; };
+		7E7CE0ED15CA397C004657AE /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0E315CA392B004657AE /* UIImageView+WebCache.m */; };
+		7E7CE0EE15CA397C004657AE /* JTLazyLoadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0E615CA3969004657AE /* JTLazyLoadTableViewCell.m */; };
+		7E7CE0F215CA4408004657AE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0F115CA4408004657AE /* RootViewController.m */; };
+		7E7CE0F515CA44CB004657AE /* aTabTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0F415CA44CB004657AE /* aTabTableView.m */; };
+		7E7CE0F815CA44E9004657AE /* bTabTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE0F715CA44E9004657AE /* bTabTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E5838B715CA4D7E0002D74C /* UZProfileTabActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UZProfileTabActive.png; sourceTree = "<group>"; };
+		7E5838B815CA4D7E0002D74C /* UZProfileTabActive2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UZProfileTabActive2.png; sourceTree = "<group>"; };
+		7E5838B915CA4D7E0002D74C /* UZProfileTabActive2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UZProfileTabActive2@2x.png"; sourceTree = "<group>"; };
+		7E5838BA15CA4D7E0002D74C /* UZProfileTabActive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UZProfileTabActive@2x.png"; sourceTree = "<group>"; };
+		7E5838BB15CA4D7E0002D74C /* UZProfileTabInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UZProfileTabInactive.png; sourceTree = "<group>"; };
+		7E5838BC15CA4D7E0002D74C /* UZProfileTabInactive2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UZProfileTabInactive2.png; sourceTree = "<group>"; };
+		7E5838BD15CA4D7E0002D74C /* UZProfileTabInactive2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UZProfileTabInactive2@2x.png"; sourceTree = "<group>"; };
+		7E5838BE15CA4D7E0002D74C /* UZProfileTabInactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UZProfileTabInactive@2x.png"; sourceTree = "<group>"; };
 		7E7CE0A515CA2D01004657AE /* JTHeadedListTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTHeadedListTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7CE0A915CA2D01004657AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E7CE0AB15CA2D01004657AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E7CE0AD15CA2D01004657AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7E7CE0B115CA2D01004657AE /* JTHeadedListTabBarController-Info.plist */ = {isa = PBXFileReference; path = "JTHeadedListTabBarController-Info.plist"; sourceTree = "<group>"; };
+		7E7CE0B115CA2D01004657AE /* JTHeadedListTabBarController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTHeadedListTabBarController-Info.plist"; sourceTree = "<group>"; };
 		7E7CE0B315CA2D01004657AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E7CE0B515CA2D01004657AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7E7CE0B715CA2D01004657AE /* JTHeadedListTabBarController-Prefix.pch */ = {isa = PBXFileReference; path = "JTHeadedListTabBarController-Prefix.pch"; sourceTree = "<group>"; };
-		7E7CE0B815CA2D01004657AE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E7CE0B715CA2D01004657AE /* JTHeadedListTabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JTHeadedListTabBarController-Prefix.pch"; sourceTree = "<group>"; };
+		7E7CE0B815CA2D01004657AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E7CE0B915CA2D01004657AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E7CE0C015CA362C004657AE /* SMHeaderCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHeaderCellView.h; sourceTree = "<group>"; };
+		7E7CE0C115CA362C004657AE /* SMHeaderCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHeaderCellView.m; sourceTree = "<group>"; };
+		7E7CE0C315CA3651004657AE /* MHTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHTabBarView.h; sourceTree = "<group>"; };
+		7E7CE0C415CA3651004657AE /* MHTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHTabBarView.m; sourceTree = "<group>"; };
+		7E7CE0C615CA36BA004657AE /* JTTabTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTabTableViewController.h; sourceTree = "<group>"; };
+		7E7CE0C715CA36BA004657AE /* JTTabTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTabTableViewController.m; sourceTree = "<group>"; };
+		7E7CE0C915CA3730004657AE /* JTLazyLoadTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTLazyLoadTableView.h; sourceTree = "<group>"; };
+		7E7CE0CA15CA3730004657AE /* JTLazyLoadTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTLazyLoadTableView.m; sourceTree = "<group>"; };
+		7E7CE0CF15CA37CA004657AE /* JTTabTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTabTableView.h; sourceTree = "<group>"; };
+		7E7CE0D015CA37CA004657AE /* JTTabTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTabTableView.m; sourceTree = "<group>"; };
+		7E7CE0D215CA3917004657AE /* SDImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		7E7CE0D315CA3918004657AE /* SDImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		7E7CE0D415CA3918004657AE /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
+		7E7CE0D515CA3918004657AE /* SDWebImageCompat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		7E7CE0D615CA3919004657AE /* SDWebImageDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		7E7CE0D715CA391A004657AE /* SDWebImageDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		7E7CE0D815CA391A004657AE /* SDWebImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		7E7CE0D915CA391B004657AE /* SDWebImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		7E7CE0DA15CA391C004657AE /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		7E7CE0DB15CA391E004657AE /* SDWebImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		7E7CE0DC15CA391F004657AE /* SDWebImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		7E7CE0DD15CA3921004657AE /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		7E7CE0DE15CA3922004657AE /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		7E7CE0DF15CA3924004657AE /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		7E7CE0E015CA3926004657AE /* UIButton+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		7E7CE0E115CA3927004657AE /* UIButton+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		7E7CE0E215CA3929004657AE /* UIImageView+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		7E7CE0E315CA392B004657AE /* UIImageView+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		7E7CE0E515CA3969004657AE /* JTLazyLoadTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTLazyLoadTableViewCell.h; sourceTree = "<group>"; };
+		7E7CE0E615CA3969004657AE /* JTLazyLoadTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTLazyLoadTableViewCell.m; sourceTree = "<group>"; };
+		7E7CE0F015CA4408004657AE /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7E7CE0F115CA4408004657AE /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7E7CE0F315CA44CB004657AE /* aTabTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aTabTableView.h; sourceTree = "<group>"; };
+		7E7CE0F415CA44CB004657AE /* aTabTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aTabTableView.m; sourceTree = "<group>"; };
+		7E7CE0F615CA44E9004657AE /* bTabTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bTabTableView.h; sourceTree = "<group>"; };
+		7E7CE0F715CA44E9004657AE /* bTabTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bTabTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +110,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E5838B515CA4D720002D74C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7E5838B715CA4D7E0002D74C /* UZProfileTabActive.png */,
+				7E5838B815CA4D7E0002D74C /* UZProfileTabActive2.png */,
+				7E5838B915CA4D7E0002D74C /* UZProfileTabActive2@2x.png */,
+				7E5838BA15CA4D7E0002D74C /* UZProfileTabActive@2x.png */,
+				7E5838BB15CA4D7E0002D74C /* UZProfileTabInactive.png */,
+				7E5838BC15CA4D7E0002D74C /* UZProfileTabInactive2.png */,
+				7E5838BD15CA4D7E0002D74C /* UZProfileTabInactive2@2x.png */,
+				7E5838BE15CA4D7E0002D74C /* UZProfileTabInactive@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		7E7CE09A15CA2D01004657AE = {
 			isa = PBXGroup;
 			children = (
@@ -72,8 +155,14 @@
 		7E7CE0AF15CA2D01004657AE /* JTHeadedListTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				7E5838B515CA4D720002D74C /* Assets */,
+				7E7CE0E415CA393F004657AE /* SDWebImage */,
+				7E7CE0C515CA3655004657AE /* MHTabBar */,
+				7E7CE0C215CA3638004657AE /* SMHeadedList */,
 				7E7CE0B815CA2D01004657AE /* AppDelegate.h */,
 				7E7CE0B915CA2D01004657AE /* AppDelegate.m */,
+				7E7CE0CE15CA377E004657AE /* JTTabBarTableViewController */,
+				7E7CE0EF15CA4389004657AE /* Classes */,
 				7E7CE0B015CA2D01004657AE /* Supporting Files */,
 			);
 			path = JTHeadedListTabBarController;
@@ -88,6 +177,77 @@
 				7E7CE0B715CA2D01004657AE /* JTHeadedListTabBarController-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E7CE0C215CA3638004657AE /* SMHeadedList */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CE0C015CA362C004657AE /* SMHeaderCellView.h */,
+				7E7CE0C115CA362C004657AE /* SMHeaderCellView.m */,
+			);
+			name = SMHeadedList;
+			sourceTree = "<group>";
+		};
+		7E7CE0C515CA3655004657AE /* MHTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CE0C315CA3651004657AE /* MHTabBarView.h */,
+				7E7CE0C415CA3651004657AE /* MHTabBarView.m */,
+			);
+			name = MHTabBar;
+			sourceTree = "<group>";
+		};
+		7E7CE0CE15CA377E004657AE /* JTTabBarTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CE0C615CA36BA004657AE /* JTTabTableViewController.h */,
+				7E7CE0C715CA36BA004657AE /* JTTabTableViewController.m */,
+				7E7CE0C915CA3730004657AE /* JTLazyLoadTableView.h */,
+				7E7CE0CA15CA3730004657AE /* JTLazyLoadTableView.m */,
+				7E7CE0CF15CA37CA004657AE /* JTTabTableView.h */,
+				7E7CE0D015CA37CA004657AE /* JTTabTableView.m */,
+				7E7CE0E515CA3969004657AE /* JTLazyLoadTableViewCell.h */,
+				7E7CE0E615CA3969004657AE /* JTLazyLoadTableViewCell.m */,
+			);
+			name = JTTabBarTableViewController;
+			sourceTree = "<group>";
+		};
+		7E7CE0E415CA393F004657AE /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CE0D215CA3917004657AE /* SDImageCache.h */,
+				7E7CE0D315CA3918004657AE /* SDImageCache.m */,
+				7E7CE0D415CA3918004657AE /* SDImageCacheDelegate.h */,
+				7E7CE0D515CA3918004657AE /* SDWebImageCompat.h */,
+				7E7CE0D615CA3919004657AE /* SDWebImageDecoder.h */,
+				7E7CE0D715CA391A004657AE /* SDWebImageDecoder.m */,
+				7E7CE0D815CA391A004657AE /* SDWebImageDownloader.h */,
+				7E7CE0D915CA391B004657AE /* SDWebImageDownloader.m */,
+				7E7CE0DA15CA391C004657AE /* SDWebImageDownloaderDelegate.h */,
+				7E7CE0DB15CA391E004657AE /* SDWebImageManager.h */,
+				7E7CE0DC15CA391F004657AE /* SDWebImageManager.m */,
+				7E7CE0DD15CA3921004657AE /* SDWebImageManagerDelegate.h */,
+				7E7CE0DE15CA3922004657AE /* SDWebImagePrefetcher.h */,
+				7E7CE0DF15CA3924004657AE /* SDWebImagePrefetcher.m */,
+				7E7CE0E015CA3926004657AE /* UIButton+WebCache.h */,
+				7E7CE0E115CA3927004657AE /* UIButton+WebCache.m */,
+				7E7CE0E215CA3929004657AE /* UIImageView+WebCache.h */,
+				7E7CE0E315CA392B004657AE /* UIImageView+WebCache.m */,
+			);
+			name = SDWebImage;
+			sourceTree = "<group>";
+		};
+		7E7CE0EF15CA4389004657AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CE0F015CA4408004657AE /* RootViewController.h */,
+				7E7CE0F115CA4408004657AE /* RootViewController.m */,
+				7E7CE0F315CA44CB004657AE /* aTabTableView.h */,
+				7E7CE0F415CA44CB004657AE /* aTabTableView.m */,
+				7E7CE0F615CA44E9004657AE /* bTabTableView.h */,
+				7E7CE0F715CA44E9004657AE /* bTabTableView.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E7CE0B415CA2D01004657AE /* InfoPlist.strings in Resources */,
+				7E5838BF15CA4D7E0002D74C /* UZProfileTabActive.png in Resources */,
+				7E5838C015CA4D7E0002D74C /* UZProfileTabActive2.png in Resources */,
+				7E5838C115CA4D7E0002D74C /* UZProfileTabActive2@2x.png in Resources */,
+				7E5838C215CA4D7E0002D74C /* UZProfileTabActive@2x.png in Resources */,
+				7E5838C315CA4D7E0002D74C /* UZProfileTabInactive.png in Resources */,
+				7E5838C415CA4D7E0002D74C /* UZProfileTabInactive2.png in Resources */,
+				7E5838C515CA4D7E0002D74C /* UZProfileTabInactive2@2x.png in Resources */,
+				7E5838C615CA4D7E0002D74C /* UZProfileTabInactive@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +319,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7CE0E715CA397C004657AE /* SDImageCache.m in Sources */,
+				7E7CE0E815CA397C004657AE /* SDWebImageDecoder.m in Sources */,
+				7E7CE0E915CA397C004657AE /* SDWebImageDownloader.m in Sources */,
+				7E7CE0EA15CA397C004657AE /* SDWebImageManager.m in Sources */,
+				7E7CE0EB15CA397C004657AE /* SDWebImagePrefetcher.m in Sources */,
+				7E7CE0EC15CA397C004657AE /* UIButton+WebCache.m in Sources */,
+				7E7CE0ED15CA397C004657AE /* UIImageView+WebCache.m in Sources */,
+				7E7CE0EE15CA397C004657AE /* JTLazyLoadTableViewCell.m in Sources */,
+				7E7CE0CB15CA3755004657AE /* MHTabBarView.m in Sources */,
+				7E7CE0CC15CA3755004657AE /* SMHeaderCellView.m in Sources */,
+				7E7CE0CD15CA3755004657AE /* JTLazyLoadTableView.m in Sources */,
 				7E7CE0B615CA2D01004657AE /* main.m in Sources */,
 				7E7CE0BA15CA2D01004657AE /* AppDelegate.m in Sources */,
+				7E7CE0C815CA36BA004657AE /* JTTabTableViewController.m in Sources */,
+				7E7CE0D115CA37CA004657AE /* JTTabTableView.m in Sources */,
+				7E7CE0F215CA4408004657AE /* RootViewController.m in Sources */,
+				7E7CE0F515CA44CB004657AE /* aTabTableView.m in Sources */,
+				7E7CE0F815CA44E9004657AE /* bTabTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +438,7 @@
 				7E7CE0BF15CA2D01004657AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
