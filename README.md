@@ -11,6 +11,7 @@ Just some simple steps: (Take look at Demo Classes)
 @interface aTabTableView : JTTabTableView <UITableViewDelegate, UITableViewDataSource>
 
 - Assign your cusomized tableviews to your customized viewcontrollers:
+
         aTabTableView * aTableView = [[aTabTableView alloc]init];
         aTableView.tabTitle = @"Tab A";
         aTableView.delegate = aTableView;
