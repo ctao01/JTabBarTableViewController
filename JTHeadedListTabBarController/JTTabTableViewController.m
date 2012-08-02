@@ -9,10 +9,13 @@
 #import "JTTabTableViewController.h"
 
 #define UI_STATUS_BAR_HEIGHT 20
+#define UI_NAVIGATION_BAR_HEIGHT 44
 #define ELASTIC_SNAP_THRESHOLD 20
 #define TAB_BAR_HEIGHT 25
+#define TAB_BAR_OVERLAY 4
+
 #define HEADER_CELL_HEIGHT 100
-#define ITEM_CELL_HEIGHT 480 - UI_STATUS_BAR_HEIGHT - TAB_BAR_HEIGHT
+#define ITEM_CELL_HEIGHT 480 - UI_STATUS_BAR_HEIGHT - TAB_BAR_HEIGHT +TAB_BAR_OVERLAY
 
 
 @interface JTTabTableViewController ()
@@ -245,9 +248,9 @@
 	
 	self.itemTableView = [self.tableviews objectAtIndex:newSelectedIndex];
 	
-	[self.itemTableView setContentInset:UIEdgeInsetsMake(0,0,0,0)];
-    self.itemTableView.frame = CGRectMake(0, TAB_BAR_HEIGHT, 320, ITEM_CELL_HEIGHT - TAB_BAR_HEIGHT);
-    self.itemTableView.scrollIndicatorInsets = UIEdgeInsetsMake(TAB_BAR_HEIGHT, 0.0f, 0.0f, 0.0f);
+	[self.itemTableView setContentInset:UIEdgeInsetsMake(0,0,UI_NAVIGATION_BAR_HEIGHT ,0)];
+    self.itemTableView.frame = CGRectMake(0, TAB_BAR_HEIGHT -TAB_BAR_OVERLAY, 320, ITEM_CELL_HEIGHT);
+    self.itemTableView.scrollIndicatorInsets = UIEdgeInsetsMake(0.0f, 0.0f,UI_NAVIGATION_BAR_HEIGHT, 0.0f);
     self.itemTableView.jtTabTableViewController = self;
     
     _selectedIndex = newSelectedIndex;
