@@ -4,15 +4,13 @@ JTabBarTableViewController
 First, thanks for "JTabBarTableViewController" form stuartjmoore and "MHTabBarController" from hollance.Those brilliant libraries help me implement JTabBarTableViewController.
 
 Just some simple steps: (Take look at Demo Classes)
-1. Create a customized viewcontroller which is extended to JTTabTableViewController:
-
+- Create a customized viewcontroller which is extended to JTTabTableViewController:
 @interface RootViewController : JTTabTableViewController
 
-2. Create customized tableviews which are extended to JTTabTableView, add UITableViewDelegate and UITableviewDataSource as well:
-
+- Create customized tableviews which are extended to JTTabTableView, add UITableViewDelegate and UITableviewDataSource as well:
 @interface aTabTableView : JTTabTableView <UITableViewDelegate, UITableViewDataSource>
 
-3. Assign your cusomized tableviews to your customized viewcontrollers:
+- Assign your cusomized tableviews to your customized viewcontrollers:
 	
 	aTabTableView * aTableView = [[aTabTableView alloc]init];
         aTableView.tabTitle = @"Tab A";
