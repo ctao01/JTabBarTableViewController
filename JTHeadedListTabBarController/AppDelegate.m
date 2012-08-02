@@ -7,14 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
-
+@synthesize navigationController = _navigationController;
 - (void)dealloc
 {
     [_window release];
+    [_navigationController release];
     [super dealloc];
 }
 
@@ -24,6 +26,11 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+    RootViewController * rootViewController = [[RootViewController alloc]initWithStyle:UITableViewStylePlain];
+    self.navigationController = [[UINavigationController alloc]initWithRootViewController:rootViewController];
+    [self.window addSubview:self.navigationController.view];
+    
     return YES;
 }
 
