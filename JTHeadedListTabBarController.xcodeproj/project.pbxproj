@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D28E038167B9FB30086B331 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D28E035167B9FB30086B331 /* Default-568h@2x.png */; };
+		3D28E039167B9FB30086B331 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D28E036167B9FB30086B331 /* Default.png */; };
+		3D28E03A167B9FB30086B331 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D28E037167B9FB30086B331 /* Default@2x.png */; };
+		3D28E041167B9FFA0086B331 /* TAO_LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D28E040167B9FFA0086B331 /* TAO_LOGO.png */; };
+		3D28E043167BA0060086B331 /* TAO_LOGO@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D28E042167BA0060086B331 /* TAO_LOGO@2x.png */; };
 		7E7CE0AA15CA2D01004657AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CE0A915CA2D01004657AE /* UIKit.framework */; };
 		7E7CE0AC15CA2D01004657AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CE0AB15CA2D01004657AE /* Foundation.framework */; };
 		7E7CE0AE15CA2D01004657AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CE0AD15CA2D01004657AE /* CoreGraphics.framework */; };
@@ -16,15 +21,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D28E035167B9FB30086B331 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3D28E036167B9FB30086B331 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3D28E037167B9FB30086B331 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3D28E040167B9FFA0086B331 /* TAO_LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TAO_LOGO.png; sourceTree = "<group>"; };
+		3D28E042167BA0060086B331 /* TAO_LOGO@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TAO_LOGO@2x.png"; sourceTree = "<group>"; };
 		7E7CE0A515CA2D01004657AE /* JTHeadedListTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTHeadedListTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7CE0A915CA2D01004657AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E7CE0AB15CA2D01004657AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E7CE0AD15CA2D01004657AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7E7CE0B115CA2D01004657AE /* JTHeadedListTabBarController-Info.plist */ = {isa = PBXFileReference; path = "JTHeadedListTabBarController-Info.plist"; sourceTree = "<group>"; };
+		7E7CE0B115CA2D01004657AE /* JTHeadedListTabBarController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTHeadedListTabBarController-Info.plist"; sourceTree = "<group>"; };
 		7E7CE0B315CA2D01004657AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E7CE0B515CA2D01004657AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7E7CE0B715CA2D01004657AE /* JTHeadedListTabBarController-Prefix.pch */ = {isa = PBXFileReference; path = "JTHeadedListTabBarController-Prefix.pch"; sourceTree = "<group>"; };
-		7E7CE0B815CA2D01004657AE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E7CE0B715CA2D01004657AE /* JTHeadedListTabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JTHeadedListTabBarController-Prefix.pch"; sourceTree = "<group>"; };
+		7E7CE0B815CA2D01004657AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E7CE0B915CA2D01004657AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +55,8 @@
 		7E7CE09A15CA2D01004657AE = {
 			isa = PBXGroup;
 			children = (
+				3D28E042167BA0060086B331 /* TAO_LOGO@2x.png */,
+				3D28E040167B9FFA0086B331 /* TAO_LOGO.png */,
 				7E7CE0AF15CA2D01004657AE /* JTHeadedListTabBarController */,
 				7E7CE0A815CA2D01004657AE /* Frameworks */,
 				7E7CE0A615CA2D01004657AE /* Products */,
@@ -72,6 +84,9 @@
 		7E7CE0AF15CA2D01004657AE /* JTHeadedListTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				3D28E035167B9FB30086B331 /* Default-568h@2x.png */,
+				3D28E036167B9FB30086B331 /* Default.png */,
+				3D28E037167B9FB30086B331 /* Default@2x.png */,
 				7E7CE0B815CA2D01004657AE /* AppDelegate.h */,
 				7E7CE0B915CA2D01004657AE /* AppDelegate.m */,
 				7E7CE0B015CA2D01004657AE /* Supporting Files */,
@@ -141,6 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E7CE0B415CA2D01004657AE /* InfoPlist.strings in Resources */,
+				3D28E038167B9FB30086B331 /* Default-568h@2x.png in Resources */,
+				3D28E039167B9FB30086B331 /* Default.png in Resources */,
+				3D28E03A167B9FB30086B331 /* Default@2x.png in Resources */,
+				3D28E041167B9FFA0086B331 /* TAO_LOGO.png in Resources */,
+				3D28E043167BA0060086B331 /* TAO_LOGO@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +274,7 @@
 				7E7CE0BF15CA2D01004657AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
