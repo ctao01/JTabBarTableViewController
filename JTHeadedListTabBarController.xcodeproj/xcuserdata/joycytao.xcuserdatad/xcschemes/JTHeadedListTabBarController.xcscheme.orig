@@ -57,11 +57,14 @@
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
+<<<<<<< HEAD
+=======
          <AdditionalOption
             key = "NSZombieEnabled"
             value = "YES"
             isEnabled = "YES">
          </AdditionalOption>
+>>>>>>> 406d9d283d32d57b723fffeab35a682e28b20902
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
