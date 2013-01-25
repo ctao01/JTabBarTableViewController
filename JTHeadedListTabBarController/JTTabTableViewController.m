@@ -51,7 +51,6 @@
     if (_itemTableView)
     {
         [_itemTableView removeObserver:self forKeyPath:@"contentOffset" context:NULL];
-        [_itemTableView release];
     }
     
     [super dealloc];
@@ -108,8 +107,8 @@
 {
 	if (_itemTableView == itemTableView) return;
 	
-	if (_itemTableView)
-		[_itemTableView removeObserver:self forKeyPath:@"contentOffset" context:NULL];
+//	if (_itemTableView)
+//		[_itemTableView removeObserver:self forKeyPath:@"contentOffset" context:NULL];
 	
 	[_itemTableView removeFromSuperview];
 	

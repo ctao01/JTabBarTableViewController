@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E194C75167BA43D00A53686 /* TAO_LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E194C74167BA43D00A53686 /* TAO_LOGO.png */; };
+		7E194C77167BA44300A53686 /* TAO_LOGO@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E194C76167BA44300A53686 /* TAO_LOGO@2x.png */; };
+		7E194C7B167BA4EE00A53686 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E194C78167BA4EE00A53686 /* Default-568h@2x.png */; };
+		7E194C7C167BA4EE00A53686 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E194C79167BA4EE00A53686 /* Default.png */; };
+		7E194C7D167BA4EE00A53686 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E194C7A167BA4EE00A53686 /* Default@2x.png */; };
 		7E5838BF15CA4D7E0002D74C /* UZProfileTabActive.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5838B715CA4D7E0002D74C /* UZProfileTabActive.png */; };
 		7E5838C015CA4D7E0002D74C /* UZProfileTabActive2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5838B815CA4D7E0002D74C /* UZProfileTabActive2.png */; };
 		7E5838C115CA4D7E0002D74C /* UZProfileTabActive2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5838B915CA4D7E0002D74C /* UZProfileTabActive2@2x.png */; };
@@ -40,6 +45,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E194C74167BA43D00A53686 /* TAO_LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TAO_LOGO.png; sourceTree = "<group>"; };
+		7E194C76167BA44300A53686 /* TAO_LOGO@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TAO_LOGO@2x.png"; sourceTree = "<group>"; };
+		7E194C78167BA4EE00A53686 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7E194C79167BA4EE00A53686 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7E194C7A167BA4EE00A53686 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7E5838B715CA4D7E0002D74C /* UZProfileTabActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UZProfileTabActive.png; sourceTree = "<group>"; };
 		7E5838B815CA4D7E0002D74C /* UZProfileTabActive2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UZProfileTabActive2.png; sourceTree = "<group>"; };
 		7E5838B915CA4D7E0002D74C /* UZProfileTabActive2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UZProfileTabActive2@2x.png"; sourceTree = "<group>"; };
@@ -128,6 +138,11 @@
 		7E7CE09A15CA2D01004657AE = {
 			isa = PBXGroup;
 			children = (
+				7E194C78167BA4EE00A53686 /* Default-568h@2x.png */,
+				7E194C79167BA4EE00A53686 /* Default.png */,
+				7E194C7A167BA4EE00A53686 /* Default@2x.png */,
+				7E194C76167BA44300A53686 /* TAO_LOGO@2x.png */,
+				7E194C74167BA43D00A53686 /* TAO_LOGO.png */,
 				7E7CE0AF15CA2D01004657AE /* JTHeadedListTabBarController */,
 				7E7CE0A815CA2D01004657AE /* Frameworks */,
 				7E7CE0A615CA2D01004657AE /* Products */,
@@ -309,6 +324,11 @@
 				7E5838C415CA4D7E0002D74C /* UZProfileTabInactive2.png in Resources */,
 				7E5838C515CA4D7E0002D74C /* UZProfileTabInactive2@2x.png in Resources */,
 				7E5838C615CA4D7E0002D74C /* UZProfileTabInactive@2x.png in Resources */,
+				7E194C75167BA43D00A53686 /* TAO_LOGO.png in Resources */,
+				7E194C77167BA44300A53686 /* TAO_LOGO@2x.png in Resources */,
+				7E194C7B167BA4EE00A53686 /* Default-568h@2x.png in Resources */,
+				7E194C7C167BA4EE00A53686 /* Default.png in Resources */,
+				7E194C7D167BA4EE00A53686 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +378,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = armv7;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -373,7 +393,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -382,7 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = armv7;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -390,7 +410,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -403,6 +423,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JTHeadedListTabBarController/JTHeadedListTabBarController-Prefix.pch";
 				INFOPLIST_FILE = "JTHeadedListTabBarController/JTHeadedListTabBarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -414,6 +435,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JTHeadedListTabBarController/JTHeadedListTabBarController-Prefix.pch";
 				INFOPLIST_FILE = "JTHeadedListTabBarController/JTHeadedListTabBarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
