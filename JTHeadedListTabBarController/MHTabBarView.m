@@ -10,6 +10,7 @@
 #import "MHTabBarView.h"
 
 #define TAG_OFFSET  1000
+#define DEVICE_OS [[[UIDevice currentDevice] systemVersion] intValue]
 
 @implementation MHTabBarView
 UIImageView * indicatorImageView;
@@ -37,13 +38,17 @@ UIImageView * oldIndicatorImg;
 - (void)selectTabButton:(UIButton *)button
 {
     //[button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    
-	UIImage *image = [[UIImage imageNamed:@"UZProfileTabActive"] stretchableImageWithLeftCapWidth:6 topCapHeight:1];
-	[button setBackgroundImage:image forState:UIControlStateNormal];
-	[button setBackgroundImage:image forState:UIControlStateHighlighted];
-	
-	[button setTitleColor:[UIColor colorWithRed:226/255.0f green:218/255.0f blue:211/255.0f alpha:1.0f] forState:UIControlStateNormal];
-	//[button setTitleShadowColor:[UIColor colorWithWhite:0.0f alpha:0.5f] forState:UIControlStateNormal];
+    if (DEVICE_OS < 6.0f)
+    {
+        UIImage *image = [[UIImage imageNamed:@"UZProfileTabActive"] stretchableImageWithLeftCapWidth:6 topCapHeight:1];
+        [button setBackgroundImage:image forState:UIControlStateNormal];
+        [button setBackgroundImage:image forState:UIControlStateHighlighted];
+        
+//        [button setTitleColor:[UIColor colorWithRed:226/255.0f green:218/255.0f blue:211/255.0f alpha:1.0f] forState:UIControlStateNormal];
+	}
+    else
+        [button setBackgroundColor:[UIColor redColor]];
+    //[button setTitleShadowColor:[UIColor colorWithWhite:0.0f alpha:0.5f] forState:UIControlStateNormal];
 	
 //	button.layer.shadowColor = [UZColorProfileStatsShadow CGColor];
 //	button.layer.shadowOffset = CGSizeMake(0, 3);
@@ -55,13 +60,17 @@ UIImageView * oldIndicatorImg;
 - (void)deselectTabButton:(UIButton *)button
 {
 	//[button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    
-	UIImage *image = [[UIImage imageNamed:@"UZProfileTabInactive"] stretchableImageWithLeftCapWidth:1 topCapHeight:1];
-	[button setBackgroundImage:image forState:UIControlStateNormal];
-	[button setBackgroundImage:image forState:UIControlStateHighlighted];
-    
-	[button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-	
+    if (DEVICE_OS < 6.0f)
+	{
+        UIImage *image = [[UIImage imageNamed:@"UZProfileTabInactive"] stretchableImageWithLeftCapWidth:1 topCapHeight:1];
+        [button setBackgroundImage:image forState:UIControlStateNormal];
+        [button setBackgroundImage:image forState:UIControlStateHighlighted];
+        
+        [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    }
+	else
+        [button setBackgroundColor:[UIColor lightGrayColor]];
+
 }
 
 - (void)removeTabButtons

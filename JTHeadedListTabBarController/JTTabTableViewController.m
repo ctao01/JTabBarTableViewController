@@ -15,7 +15,8 @@
 #define TAB_BAR_OVERLAY 4
 
 #define HEADER_CELL_HEIGHT 100
-#define ITEM_CELL_HEIGHT 480 - UI_STATUS_BAR_HEIGHT - TAB_BAR_HEIGHT +TAB_BAR_OVERLAY
+#define HEIGHT [[UIScreen mainScreen] bounds].size.height
+#define ITEM_CELL_HEIGHT HEIGHT - UI_STATUS_BAR_HEIGHT - TAB_BAR_HEIGHT +TAB_BAR_OVERLAY
 
 
 @interface JTTabTableViewController ()
@@ -52,6 +53,7 @@
     {
         [_itemTableView removeObserver:self forKeyPath:@"contentOffset" context:NULL];
     }
+    
     
     [super dealloc];
 }
